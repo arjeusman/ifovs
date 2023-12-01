@@ -1,4 +1,5 @@
 <?php require('config.php'); ?>
+<?php require('includes/functions.php'); ?>
 <?php protectedContent(); ?>
 <?php $active = 'employees'; ?>
 <?php getComponent('header'); ?>

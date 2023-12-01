@@ -1,6 +1,7 @@
 <?php
 
 require('config.php');
+require('includes/functions.php');
 require('includes/mailer.php');
 
 if(isset($_POST['send'])):
