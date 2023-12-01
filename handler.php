@@ -1,5 +1,7 @@
 <?php
 
+//handler
+
 require 'dashboard/config.php';
 
 if(isset($_POST['send_message'])):
