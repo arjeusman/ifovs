@@ -12,9 +12,9 @@ define('appName', 'iFovs');
 $active = 'dashboard';
 
 $host = 'localhost';
-$user = 'u689646505_ifovs';
-$pass = 'Ifovsipil2019!';
-$db = 'u689646505_ifovs';
+$user = 'root';
+$pass = '';
+$db = 'ifovs';
 
 $con = mysqli_connect($host, $user, $pass, $db) or die(mysqli_connect_error());
 
