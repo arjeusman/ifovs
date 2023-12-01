@@ -1,5 +1,4 @@
 <?php require('config.php'); ?>
-<?php require('includes/functions.php'); ?>
 <?php protectedContent(); ?>
 <?php $active = 'messages'; ?>
 <?php getProcessor('messages'); ?>
