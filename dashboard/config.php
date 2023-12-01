@@ -16,4 +16,6 @@ $user = 'u689646505_ifovs';
 $pass = 'Ifovsipil2019!';
 $db = 'u689646505_ifovs';
 
-$con = mysqli_connect($host, $user, $pass, $db) or die(mysqli_connect_error($con));
+$con = mysqli_connect($host, $user, $pass, $db) or die(mysqli_connect_error());
+
+include('includes/functions.php');

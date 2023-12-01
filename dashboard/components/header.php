@@ -1,7 +1,5 @@
 <?php global $active; ?>
 
-<?php include('includes/functions.php'); ?>
-
 <!DOCTYPE html>
 <html>
 <head>
